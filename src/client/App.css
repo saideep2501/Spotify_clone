@@ -1,0 +1,36 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: auto; /* Prevent page from scrolling */
+}
+#root{
+  background-color: #31363F;
+}
+.main{
+  border: 2px solid #31363F;
+  background-color: #31363F;
+}
+.left-container{
+  height:250vh;
+  background:black;
+  color: white;
+  width: 351px;
+  flex: 1;
+  position: fixed;
+}
+.right-container{
+  flex: 3;
+  margin-left: 421px;
+  margin-top: 10px;
+  overflow-y:auto;
+  scroll-behavior: smooth;
+}
+.second{
+  flex: 3;
+  margin-left: 70px;
+  margin-left: 421px;
+  margin-top: 10px;
+  overflow-y:hidden;
+  position: relative;
+}
